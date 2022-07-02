@@ -6,8 +6,8 @@ def sortLuckNumber(arrList):
         return sortLuckNumber(arrList)
     return lNumber
 
-question02 = eval(raw_input('Quantidade de jogos: '))
-question01 = eval(raw_input('Quantidade de numeros: '))
+question02 = eval(input('Quantidade de jogos: '))
+question01 = eval(input('Quantidade de numeros: '))
 
 indiceGames = 0
 arrGames = []
